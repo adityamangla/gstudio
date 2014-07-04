@@ -41,7 +41,7 @@ class Command(BaseCommand):
 			for row in r:
 				for a in row:
 					if a.startswith('Q')==True:
-						print (a)
+						print "\n ", a
 
 		
 		'''
